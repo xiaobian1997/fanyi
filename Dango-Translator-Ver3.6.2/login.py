@@ -103,7 +103,7 @@ class Login(QWidget):
                                        "background: transparent;"
                                        "font: 20pt \"华康方圆体W7\";"
                                        "font-weight:bold;")
-        self.title_label.setText("团子翻译器")
+        self.title_label.setText("ocr翻译")
 
         # 最小化按钮
         self.MinimizeButton = QPushButton(qtawesome.icon("fa.minus", color="#1E90FF"), "", self)
@@ -189,7 +189,7 @@ class Login(QWidget):
                                          "background: transparent;"
                                          "font: 10pt \"华康方圆体W7\";"
                                          )
-        self.author_label.setText("By 胖次团子")
+        self.author_label.setText("搬运自B站 胖次团子")
 
 
     # 鼠标移动到眼睛上时对密码的处理
